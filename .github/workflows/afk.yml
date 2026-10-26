@@ -12,7 +12,7 @@ jobs:
     - name: Clonar repositorio
       uses: actions/checkout@v4
 
-    - name: Configurar Node.js
+    - name: Configurar bot.js
       uses: actions/setup-node@v4
       with:
         node-version: 18
